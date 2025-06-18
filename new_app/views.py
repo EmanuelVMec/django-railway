@@ -10,7 +10,7 @@ print("[DEBUG] Iniciando la carga del modelo...")
 
 # Cargar el modelo .pkl
 try:
-    model_path = os.path.join(settings.STATICFILES_DIRS[0], 'models', 'Modelocafe (1).pkl')
+    model_path = os.path.join(settings.STATICFILES_DIRS[0], 'models', 'Modelocafe(1).pkl')
     model = joblib.load(model_path)
     print(f"[DEBUG] Modelo cargado exitosamente desde: {model_path}")
 except FileNotFoundError as e:
