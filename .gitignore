@@ -5,4 +5,4 @@ migrations
 .env
 /backend/
 /static/
-staticfiels
+staticfiles
