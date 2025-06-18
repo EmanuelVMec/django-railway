@@ -1,1 +1,1 @@
-web: gunicorn predictor.wsgi
+web: python manage.py collectstatic && gunicorn predictor.wsgi
