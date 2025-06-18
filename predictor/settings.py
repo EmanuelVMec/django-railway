@@ -141,3 +141,4 @@ STORAGES = {
 
 ALLOWED_HOSTS= ['local', 'django-railway-coffeeforecast.up.railway.app']
 
+CSRF_TRUSTED_ORIGINS = ['https://django-railway-coffeeforecast.up.railway.app']
