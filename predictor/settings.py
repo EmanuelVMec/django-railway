@@ -140,3 +140,5 @@ STORAGES = {
 }
 
 ALLOWED_HOSTS= ['local', 'django-railway-coffeeforecast.up.railway.app']
+
+print(STATICFILES_DIRS)
