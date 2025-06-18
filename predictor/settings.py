@@ -39,9 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'whitenoise.runserver_nostatic',
-    'app',
     'corsheaders',
     'rest_framework',
+    'new_app',
 ]
 
 MIDDLEWARE = [
@@ -141,4 +141,3 @@ STORAGES = {
 
 ALLOWED_HOSTS= ['local', 'django-railway-coffeeforecast.up.railway.app']
 
-print(STATICFILES_DIRS)
